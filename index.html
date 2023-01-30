@@ -6,69 +6,71 @@
 	<title>Criando curriculo</title>
 </head>
 <body>
-	<form>
-		<h1><i>Criar curriculo<i></h1>
-		<h2>Deseja iniciar o curriculo?</h2>
-		<div>
-			<input type="radio" name="selecao" value="s">SIM
-			<input type="radio" name="selecao" value="n">NAO
-		</div>
-		<div>
-			<h3>Sexo</h3>
-			<label for="">Selecione: </label>
-			<select required class="" name="Sexo">
-				<option selected="select" value="">Selecione:</select>
-				<option value="f">f</option>
-				<option value="m">m</option>
-			</select>
-		</div>
-		<div>
-			<label for="">Sua foto</label>
-			<input required="required" type="file" name="foto">
-		</div>
-		<div>
-			<label for="">Sobre você</label>
-			<textarea name="Sobre" placeholder="Escreva sobre você" required="required" cols="50"  rows="3" ></textarea>
-		</div>
-		<div>
-			<input type="text" name="dados" required="required" placeholder="Seu nome">
-		</div>
-		<div>
-			<input type="text" name="dados" required="required" placeholder="Nascimento">
-		</div>
-		<div>
-			<input type="text" name="dados" required="required" placeholder="Endereço">
-		</div>
-		<div>
-			<input type="text" name="dados" required="required" placeholder="Estado civil">
-		</div>
-		<div>
-			<input type="text" name="dados" required="required" placeholder="Numero para contato">
-		</div>
-		<div>
-			<h4>Possui curso?</h4>
-			<input type="radio" name="selecao" value="s">SIM
-			<input type="radio" name="selecao" value="n">NAO
-		</div>
-			<input type="text" name="dados" required="required" placeholder="Nome do curso">
-		<div>
-			<h5>Possui Experiência?</h5>
-			<label for="ok"></label>
-			<input id="ok" type="radio" name="selecao" value="s">SIM
-			<input id="ok" type="radio" name="selecao" value="n">NAO
-		</div>
-		<div>
-			<input type="text" name="dados" required="required" placeholder="EMPRESA">
-		</div>
-		<div>
-			<input type="text" name="dados" required="required" placeholder="Função">
-		</div>
-		<div>
-			<input type="text" name="dados" required="required" placeholder="Periodo">
-		</div>
-		<div>
-			<button type="submit" name="enviar" value="1">Concluir</button>
-		</div>
-	</form>
+	<div class="container">
+		<form>
+			<h1><i>Criar curriculo<i></h1>
+			<h2>Deseja iniciar o curriculo?</h2>
+			<div>
+				<input type="radio" name="selecao" value="s">SIM
+				<input type="radio" name="selecao" value="n">NAO
+			</div>
+			<div>
+				<h3>Sexo</h3>
+				<label for="">Selecione: </label>
+				<select required class="" name="Sexo">
+					<option selected="select" value="">Selecione:</select>
+					<option value="f">f</option>
+					<option value="m">m</option>
+				</select>
+			</div>
+			<div>
+				<label for="">Sua foto</label>
+				<input required="required" type="file" name="foto">
+			</div>
+			<div>
+				<label for="">Sobre você</label>
+				<textarea name="Sobre" placeholder="Escreva sobre você" required="required" cols="50"  rows="3" ></textarea>
+			</div>
+			<div>
+				<input type="text" name="dados" required="required" placeholder="Seu nome">
+			</div>
+			<div>
+				<input type="text" name="dados" required="required" placeholder="Nascimento">
+			</div>
+			<div>
+				<input type="text" name="dados" required="required" placeholder="Endereço">
+			</div>
+			<div>
+				<input type="text" name="dados" required="required" placeholder="Estado civil">
+			</div>
+			<div>
+				<input type="text" name="dados" required="required" placeholder="Numero para contato">
+			</div>
+			<div>
+				<h4>Possui curso?</h4>
+				<input type="radio" name="selecao" value="s">SIM
+				<input type="radio" name="selecao" value="n">NAO
+			</div>
+				<input type="text" name="dados" required="required" placeholder="Nome do curso">
+			<div>
+				<h5>Possui Experiência?</h5>
+				<label for="ok"></label>
+				<input id="ok" type="radio" name="selecao" value="s">SIM
+				<input id="ok" type="radio" name="selecao" value="n">NAO
+			</div>
+			<div>
+				<input type="text" name="dados" required="required" placeholder="EMPRESA">
+			</div>
+			<div>
+				<input type="text" name="dados" required="required" placeholder="Função">
+			</div>
+			<div>
+				<input type="text" name="dados" required="required" placeholder="Periodo">
+			</div>
+			<div>
+				<button type="submit" name="enviar" value="1">Concluir</button>
+			</div>
+		</form>
+	</div>
 </body>
 </html>
